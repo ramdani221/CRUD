@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(215, 76%, 87%);
+}
+div {
+    margin: 25px
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid rgb(197, 195, 191);
+    width: 100%;
+}
+
+th, td{
+    text-align: left;
+    padding: 15px;
+}
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+td {
+    padding: 15px;
+}
+
+.create {
+    display: block;
+    margin: auto;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px 0px;
+    text-align: center;
+    background-color: blue;
+    text-decoration: none;
+}
+
+.create:hover {
+    background-color: rgb(97, 97, 243);
+}
+
+form {
+    border: 1px solid;
+    padding: 15px;
+    
+}
+
+input {
+    display: block;
+    padding: 15px;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+select {
+    padding: 15px;
+    width: 100%;
+    background-color: white;
+}
+
+.save {
+ background-color: rgb(59, 168, 45);
+ color: white;
+ size: 15px;
+}
+
+button {
+    margin: 15px 0px;
+    width: 100%;
+    background-color: green;
+    padding: 15px;
+    color: white;
+    font-size: medium;
+}
+
+button:hover {
+    background-color: rgb(74, 133, 74)
+}
+
+.cancel {
+    text-align: center;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.cancel:hover {
+    background-color: rgb(97, 97, 243);
+}
